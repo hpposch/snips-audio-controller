@@ -1,0 +1,11 @@
+[Unit]
+Description=gmrender-resurrect service
+After=network.target sound.target
+
+[Service]
+User=respeaker
+ExecStart=/usr/bin/python /home/respeaker/snipsAudio/snipsAudio.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
