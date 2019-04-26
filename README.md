@@ -12,3 +12,19 @@ Just to note, i use a third party script from: https://github.com/GeorgeFilipkin
 This is needed to control all my pulseaudio sinks.
 
 HAVE FUN!
+
+
+
+# Getting Started
+
+```
+git clone https://github.com/hpposch/snips-audio-controller.git
+cd snips-audio-controller
+python snipsAudioController.py
+```
+
+I also placed a example for a systemd service inside the source folder so you can copy that file
+
+
+# ATTENTION!!!
+All paths inside this python script are hardcode an will not match your system so you have to change them manually.
