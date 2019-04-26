@@ -4,7 +4,7 @@ After=network.target sound.target
 
 [Service]
 User=respeaker
-ExecStart=/usr/bin/python /home/respeaker/snipsAudio/snipsAudio.py
+ExecStart=/usr/bin/python /home/respeaker/snips-audio-controller/snipsAudioController/snipsAudioController.py
 Restart=always
 
 [Install]
